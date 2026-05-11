@@ -117,27 +117,27 @@ export const FOOTER_COLUMNS: FooterColumn[] = [
   {
     heading: 'Services',
     links: [
-      { label: 'Chemical Treatment', href: '#services' },
-      { label: 'Water Systems',      href: '#services' },
-      { label: 'Waste Management',   href: '#services' },
-      { label: 'Compliance Audits',  href: '#contact' },
+      { label: 'Chemical Treatment', href: '/services/chemical-treatment' },
+      { label: 'Water Systems',      href: '/services/water-systems' },
+      { label: 'Waste Management',   href: '/services/waste-management' },
+      { label: 'Compliance Audits',  href: '/#contact' },
     ],
   },
   {
     heading: 'Company',
     links: [
-      { label: 'About ROMEIGH',   href: '#about' },
-      { label: 'Certifications',   href: '#compliance' },
-      { label: 'Case Studies',    href: '#' },
-      { label: 'Careers',         href: '#' },
+      { label: 'About ROMEIGH',  href: '/about' },
+      { label: 'Certifications', href: '/certifications' },
+      { label: 'Case Studies',   href: '/case-studies' },
+      { label: 'Careers',        href: '/careers' },
     ],
   },
   {
     heading: 'Legal',
     links: [
-      { label: 'Privacy Policy',    href: '#' },
-      { label: 'Legal Disclaimer',  href: '#' },
-      { label: 'Regulatory Compliance', href: '#' },
+      { label: 'Privacy Policy',        href: '/privacy-policy' },
+      { label: 'Legal Disclaimer',      href: '/legal-disclaimer' },
+      { label: 'Regulatory Compliance', href: '/regulatory-compliance' },
     ],
   },
 ]

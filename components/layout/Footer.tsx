@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import { FOOTER_COLUMNS, CONTACT_INFO } from '@/lib/constants'
 
 export function Footer() {
@@ -58,12 +59,12 @@ export function Footer() {
               <ul className="space-y-2.5 list-none">
                 {col.links.map(link => (
                   <li key={link.label}>
-                    <a
+                    <Link
                       href={link.href}
                       className="text-sm text-white/40 hover:text-white/80 transition-colors"
                     >
                       {link.label}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
