@@ -25,10 +25,6 @@ export const leadFormSchema = z.object({
     .string()
     .min(1, 'Please select a service'),
 
-  wasteVolume: z
-    .string()
-    .min(1, 'Please select an estimated volume'),
-
   location: z
     .string()
     .min(3, 'Please enter your facility location')

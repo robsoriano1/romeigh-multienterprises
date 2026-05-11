@@ -24,7 +24,7 @@ const FOUNDERS = [
   {
     name: 'Malou Dolor',
     title: 'Co-Founder & Chief Executive Officer',
-    bio: 'Malou brings over a decade of experience in environmental compliance and sustainable practices. Her vision for ROMEIGH is to set new standards in industrial water treatment and waste management.',
+    bio: 'Malou brings over a decade of experience in environmental compliance and sustainable practices. Her vision for ROMEIGH is to set new standards in industrial water treatment and filtration.',
     photo: '/FounderPhoto1.jpg',
   },
   {
@@ -144,7 +144,7 @@ const About: NextPage = () => {
         <title>About Us — ROMEIGH Multi-Enterprises</title>
         <meta
           name="description"
-          content="Learn about ROMEIGH Multi-Enterprises — an industrial water treatment and hazardous waste management company established in 2003."
+          content="Learn about ROMEIGH Multi-Enterprises — an industrial chemical water treatment and filtration company established in 2003."
         />
       </Head>
 
@@ -177,7 +177,7 @@ const About: NextPage = () => {
               </h1>
               <p className="text-gray-500 text-[17px] leading-[1.8]">
                 ROMEIGH Multi-Enterprises has been a trusted partner for Philippine industry since 2003.
-                As a chemical water treatment specialist and hazardous waste management provider,
+                As a chemical water treatment and filtration specialist,
                 we help facilities across Cavite, Metro Manila, and CALABARZON stay safe, compliant,
                 and operationally sound — without the guesswork.
               </p>
@@ -201,7 +201,7 @@ const About: NextPage = () => {
                       <path d="M12 8v4l3 3" />
                     </>
                   ),
-                  text: 'To be the leading environmental services company in the Philippines, setting the benchmark for responsible industrial waste and water management.',
+                  text: 'To be the leading chemical water treatment company in the Philippines, setting the benchmark for responsible and effective industrial water management.',
                 },
                 {
                   label: 'Our Values',

@@ -116,7 +116,7 @@ export function HeroSection() {
 
             {/* Sub-headline — slightly larger */}
             <motion.p {...fadeUp(0.2)} className="text-gray-500 text-[18px] leading-[1.75] max-w-[480px] mb-8">
-              Industrial-grade chemical water treatment and hazardous waste management
+              Industrial-grade chemical water treatment and filtration systems
               for the Philippines&rsquo; most demanding facilities. Built for compliance.
               Engineered for continuity.
             </motion.p>

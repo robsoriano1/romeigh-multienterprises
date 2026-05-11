@@ -14,7 +14,7 @@ export function ServicesSection() {
             Industrial Solutions,<br />Precisely Delivered
           </h2>
           <p className="text-gray-500 text-[17px] leading-[1.7]">
-            Comprehensive water treatment and waste management services engineered
+            Comprehensive water treatment and filtration services engineered
             for the Philippine industrial sector.
           </p>
         </div>

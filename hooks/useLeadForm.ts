@@ -18,7 +18,6 @@ export function useLeadForm() {
       email: '',
       phone: '',
       service: '',
-      wasteVolume: '',
       location: '',
       message: '',
       consent: false,

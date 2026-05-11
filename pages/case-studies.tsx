@@ -18,12 +18,6 @@ const placeholders = [
     summary: 'A printed circuit board manufacturer required ultra-pure process water. ROMEIGH designed and installed a multi-stage RO + DI system using Pentair components, achieving the required resistivity levels within spec.',
     tags: ['Water Filtration', 'RO System', 'DI Water'],
   },
-  {
-    industry: 'Chemical Processing',
-    title: 'Hazardous Waste Compliance for a Solvent Processor',
-    summary: 'A chemical company was approaching the DENR 90-day on-site storage limit for spent solvents. ROMEIGH established a regular collection schedule and handled all manifest documentation, eliminating compliance risk.',
-    tags: ['Hazardous Waste', 'Spent Solvents', 'DENR Compliance'],
-  },
 ]
 
 const CaseStudies: NextPage = () => {

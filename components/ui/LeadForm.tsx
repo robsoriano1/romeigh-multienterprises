@@ -1,5 +1,5 @@
 import { useLeadForm } from '@/hooks/useLeadForm'
-import { SERVICE_OPTIONS, WASTE_VOLUME_OPTIONS } from '@/lib/constants'
+import { SERVICE_OPTIONS } from '@/lib/constants'
 import { cn } from '@/lib/utils'
 
 export function LeadForm() {
@@ -125,23 +125,6 @@ export function LeadForm() {
             </select>
             {errors.service && (
               <span className="field-error" role="alert">{errors.service.message}</span>
-            )}
-          </div>
-          <div>
-            <label htmlFor="wasteVolume" className="field-label">Est. Monthly Waste Volume</label>
-            <select
-              id="wasteVolume"
-              className={cn('field-input', errors.wasteVolume && 'border-danger')}
-              aria-invalid={!!errors.wasteVolume}
-              {...register('wasteVolume')}
-            >
-              <option value="">Select volume range…</option>
-              {WASTE_VOLUME_OPTIONS.map(opt => (
-                <option key={opt.value} value={opt.value}>{opt.label}</option>
-              ))}
-            </select>
-            {errors.wasteVolume && (
-              <span className="field-error" role="alert">{errors.wasteVolume.message}</span>
             )}
           </div>
         </div>

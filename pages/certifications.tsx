@@ -19,20 +19,12 @@ const certs = [
 
 const compliance = [
   {
-    label: 'DENR-Accredited Hazardous Waste Transporter',
-    description: 'ROMEIGH operates as a DENR-accredited hazardous waste transporter and service provider under DAO 2013-22, authorized to collect, transport, and facilitate disposal of regulated industrial wastes.',
+    label: 'Compliance with RA 9275 — Philippine Clean Water Act',
+    description: 'ROMEIGH\'s water treatment chemical programs and filtration system services support industrial clients in meeting effluent standards under DAO 2021-08 and the Philippine Clean Water Act.',
   },
   {
-    label: 'Compliance with RA 6969',
-    description: 'All hazardous waste services are conducted in full compliance with the Toxic Substances and Hazardous and Nuclear Wastes Control Act (RA 6969) and its implementing rules.',
-  },
-  {
-    label: 'Compliance with RA 9275',
-    description: 'Wastewater treatment support services align with the Philippine Clean Water Act (RA 9275) and DENR DAO 2021-08 effluent standards.',
-  },
-  {
-    label: 'Compliance with RA 8749',
-    description: 'Used oil collection and disposal services comply with the Philippine Clean Air Act (RA 8749) and related regulations governing the handling of used lubricating oils.',
+    label: 'Compliance with RA 8749 — Philippine Clean Air Act',
+    description: 'ROMEIGH\'s boiler water treatment programs help facilities maintain boiler efficiency and meet Permit to Operate requirements under the Philippine Clean Air Act (RA 8749) and DAO 2000-81.',
   },
 ]
 

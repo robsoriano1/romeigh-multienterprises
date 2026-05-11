@@ -79,16 +79,6 @@ export const SERVICES: Service[] = [
     logo: '/Thermomix.jpg',
     photo: '/Gallery11.jpg',
   },
-  {
-    id: 'waste-management',
-    title: 'Hazardous Waste Management',
-    shortTitle: 'Hazardous & Used Oil Waste',
-    description:
-      'Compliant collection, transport, treatment, and disposal of hazardous and used oil waste. Full regulatory documentation and manifest tracking for zero compliance risk.',
-    tags: ['Hazardous Waste', 'Used Oil Collection', 'Manifest Tracking', 'Compliant Disposal'],
-    iconName: 'shield',
-    photo: '/Gallery14.jpg',
-  },
 ]
 
 // ─── Why Us (Funnel) ─────────────────────────────────────────────────────────
@@ -119,7 +109,6 @@ export const FOOTER_COLUMNS: FooterColumn[] = [
     links: [
       { label: 'Chemical Treatment', href: '/services/chemical-treatment' },
       { label: 'Water Systems',      href: '/services/water-systems' },
-      { label: 'Waste Management',   href: '/services/waste-management' },
       { label: 'Compliance Audits',  href: '/#contact' },
     ],
   },
@@ -156,17 +145,7 @@ export const SERVICE_OPTIONS = [
   { value: 'chemical-boiler',   label: 'BOILERGUARD — Boiler Water Treatment' },
   { value: 'chemical-cooling',  label: 'BESTKOOL — Cooling Water Treatment' },
   { value: 'ro-di-filtration',  label: 'Water Filtration System (RO / MMF / Ion Exchange)' },
-  { value: 'hazardous-waste',   label: 'Hazardous Waste Management' },
-  { value: 'used-oil',          label: 'Used Oil Collection & Disposal' },
   { value: 'compliance-audit',  label: 'THERMOMIX — Fuel & Fire Treatment' },
   { value: 'other',             label: 'Other / Not Sure' },
 ] as const
 
-export const WASTE_VOLUME_OPTIONS = [
-  { value: 'lt-200',     label: '< 200 liters / month' },
-  { value: '200-1000',   label: '200 – 1,000 liters / month' },
-  { value: '1000-5000',  label: '1,000 – 5,000 liters / month' },
-  { value: '5000-20000', label: '5,000 – 20,000 liters / month' },
-  { value: 'gt-20000',   label: '> 20,000 liters / month' },
-  { value: 'n-a',        label: 'Not Applicable' },
-] as const

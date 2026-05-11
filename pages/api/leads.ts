@@ -70,10 +70,6 @@ export default async function handler(
                 <td style="padding: 8px 0; width: 40%; color: #6b7280; font-size: 13px;">Service Needed</td>
                 <td style="padding: 8px 0; font-size: 14px;"><strong>${data.service}</strong></td>
               </tr>
-              <tr style="border-bottom: 1px solid #f3f4f6;">
-                <td style="padding: 8px 0; color: #6b7280; font-size: 13px;">Monthly Waste Volume</td>
-                <td style="padding: 8px 0; font-size: 14px;">${data.wasteVolume}</td>
-              </tr>
               <tr>
                 <td style="padding: 8px 0; color: #6b7280; font-size: 13px;">Facility Location</td>
                 <td style="padding: 8px 0; font-size: 14px;">${data.location}</td>
@@ -108,7 +104,7 @@ export default async function handler(
           email: data.email,
           phone: data.phone,
           city: data.location,
-          message: `Service: ${data.service} | Volume: ${data.wasteVolume}\n\n${data.message}`,
+          message: `Service: ${data.service}\n\n${data.message}`,
         }
       })
     })

@@ -20,7 +20,7 @@ const sections = [
   },
   {
     title: '4. Data Retention',
-    body: 'We retain your personal information for as long as necessary to fulfill the purpose for which it was collected, or as required by applicable law. Client records related to hazardous waste manifests and regulatory compliance are retained in accordance with DENR requirements.',
+    body: 'We retain your personal information for as long as necessary to fulfill the purpose for which it was collected, or as required by applicable law.',
   },
   {
     title: '5. Cookies and Analytics',

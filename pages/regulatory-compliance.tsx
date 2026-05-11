@@ -7,12 +7,6 @@ import { ChatbotFAB } from '@/components/layout/ChatbotFAB'
 
 const laws = [
   {
-    code: 'RA 6969',
-    title: 'Toxic Substances and Hazardous and Nuclear Wastes Control Act',
-    summary: 'Governs the management and disposal of hazardous and toxic wastes in the Philippines. Requires generators to register with DENR-EMB, maintain proper storage, use accredited transporters, and submit manifests for every waste shipment. Non-compliance carries penalties of PHP 10,000–50,000 per day.',
-    denrRef: 'DAO 2013-22',
-  },
-  {
     code: 'RA 9275',
     title: 'Philippine Clean Water Act',
     summary: 'Regulates the discharge of pollutants into Philippine water bodies. Requires industrial facilities to obtain a Discharge Permit from DENR-EMB and meet effluent standards under DAO 2021-08. Effluent must meet Class C water quality standards — BOD ≤ 50 mg/L, TSS ≤ 70 mg/L, pH 6.0–9.0.',
@@ -28,28 +22,28 @@ const laws = [
 
 const obligations = [
   {
-    title: 'Hazardous Waste Generator Registration',
-    body: 'All facilities generating hazardous waste must register with DENR-EMB and obtain a Hazardous Waste Generator ID. ROMEIGH can guide you through the application process.',
+    title: 'Discharge Permit',
+    body: 'Industrial facilities discharging treated wastewater must obtain a Discharge Permit from DENR-EMB. ROMEIGH\'s water treatment programs help clients meet the effluent quality required to maintain their permit.',
   },
   {
-    title: '90-Day On-Site Storage Limit',
-    body: 'Hazardous wastes may not be stored on-site for more than 90 days. ROMEIGH provides scheduled collection services to keep your facility within this limit.',
+    title: 'Effluent Quality Standards',
+    body: 'Under DAO 2021-08, effluent must meet Class C water quality standards — BOD ≤ 50 mg/L, TSS ≤ 70 mg/L, pH 6.0–9.0. ROMEIGH\'s treatment chemical programs are formulated to support compliance.',
   },
   {
-    title: 'Hazardous Waste Manifests',
-    body: 'A manifest is required for every shipment of hazardous waste. ROMEIGH prepares and tracks all manifests as part of our collection service.',
-  },
-  {
-    title: 'Self-Monitoring Reports (SMR)',
-    body: 'Industrial facilities with wastewater discharges must submit quarterly SMRs to DENR-EMB. ROMEIGH\'s compliance support team can assist with SMR preparation.',
-  },
-  {
-    title: 'Annual Compliance Report (ACR)',
-    body: 'Annual Compliance Reports must be submitted to DENR-EMB by March 31 each year. ROMEIGH can assist with data compilation and report preparation.',
+    title: 'Boiler Permit to Operate',
+    body: 'Boiler and combustion facilities require a Permit to Operate from DENR-EMB under RA 8749. Properly treated boiler water reduces emissions and helps maintain permit compliance.',
   },
   {
     title: 'Pollution Control Officer (PCO)',
-    body: 'Facilities with boilers, incinerators, or significant pollution sources must employ a DENR-EMB registered PCO. Contact ROMEIGH to discuss your PCO requirements.',
+    body: 'Facilities with boilers or wastewater treatment plants must employ a DENR-EMB registered PCO. Contact ROMEIGH to discuss how our services support your PCO\'s compliance program.',
+  },
+  {
+    title: 'Self-Monitoring Reports (SMR)',
+    body: 'Industrial facilities with wastewater discharges must submit quarterly SMRs to DENR-EMB. Consistent water quality through ROMEIGH\'s programs makes SMR reporting straightforward.',
+  },
+  {
+    title: 'Annual Compliance Report (ACR)',
+    body: 'Annual Compliance Reports must be submitted to DENR-EMB by March 31 each year. ROMEIGH can assist with data and documentation related to water treatment compliance.',
   },
 ]
 
