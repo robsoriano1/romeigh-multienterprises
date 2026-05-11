@@ -97,9 +97,9 @@ export function HeroSection() {
               <Image
                 src="/RomeighLogo.jpg"
                 alt="ROMEIGH Multi-Enterprises"
-                width={300}
-                height={100}
-                className="w-full max-w-[300px] h-auto object-contain"
+                width={500}
+                height={167}
+                className="w-full max-w-[500px] h-auto object-contain"
               />
             </motion.div>
 

@@ -22,15 +22,15 @@ function HexShape({ size = 200, className = '' }: { size?: number; className?: s
 // ─── Founder data — edit names, titles, and bios here ───────────────────────
 const FOUNDERS = [
   {
-    name: 'Founder Name',
+    name: 'Malou Dolor',
     title: 'Co-Founder & Chief Executive Officer',
-    bio: 'Add a short biography here. Describe their background, expertise, and role in founding ROMEIGH Multi-Enterprises. Mention years of experience, industry knowledge, and vision for the company.',
+    bio: 'Malou brings over a decade of experience in environmental compliance and sustainable practices. Her vision for ROMEIGH is to set new standards in industrial water treatment and waste management.',
     photo: '/FounderPhoto1.jpg',
   },
   {
-    name: 'Founder Name',
-    title: 'Co-Founder & Chief Operations Officer',
-    bio: 'Add a short biography here. Describe their background, expertise, and role in founding ROMEIGH Multi-Enterprises. Mention years of experience, industry knowledge, and vision for the company.',
+    name: 'Robert Dolor',
+    title: 'Co-Founder & Chief Financial Officer',
+    bio: 'Robert has over twenty years of experience in industrial operations and management. His expertise in optimizing processes and ensuring safety protocols aligns with ROMEIGH\'s commitment to excellence.',
     photo: '/FounderPhoto2.jpg',
   },
 ]
