@@ -60,9 +60,9 @@ export function Header() {
 
           {/* Desktop CTA */}
           <div className="hidden md:block">
-            <a href="/#contact" className="btn-primary text-sm">
+            <Link href="/#contact" className="btn-primary text-sm">
               Request Audit
-            </a>
+            </Link>
           </div>
 
           {/* Mobile hamburger */}
@@ -103,9 +103,9 @@ export function Header() {
                   {link.label}
                 </Link>
               ))}
-              <a href="/#contact" className="btn-primary text-sm mt-2 text-center" onClick={() => setMobileOpen(false)}>
+              <Link href="/#contact" className="btn-primary text-sm mt-2 text-center" onClick={() => setMobileOpen(false)}>
                 Request Audit
-              </a>
+              </Link>
             </div>
           </motion.div>
         )}
